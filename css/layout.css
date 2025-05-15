@@ -1,0 +1,237 @@
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+}
+
+.mainscreen{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-mainscreen{
+    height: 120vh;
+    position: absolute;
+    animation: scale-back-main 50s linear infinite;
+}
+
+.clickmenu{
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ellips-clickmenu-1{
+    width: 0.7vw;
+    height: 4.5vw;
+    background-color: #9900FF;
+    border-radius: 50%;
+    position: absolute;
+    animation: rotate-ellips-clickmenu-1 3s linear infinite;
+}
+
+.ellips-clickmenu-2{
+    width: 0.7vw;
+    height: 4.5vw;
+    background-color: #9900FF;
+    border-radius: 50%;
+    position: absolute;
+    animation: rotate-ellips-clickmenu-2 3s linear infinite;
+}
+
+.ellips-clickmenu-3{
+    width: 0.7vw;
+    height: 4.5vw;
+    background-color: #9900FF;
+    border-radius: 50%;
+    position: absolute;
+    animation: rotate-ellips-clickmenu-3 3s linear infinite;
+}
+
+.ellips-clickmenu-4{
+    width: 0.7vw;
+    height: 4.5vw;
+    background-color: #9900FF;
+    border-radius: 50%;
+    position: absolute;
+    animation: rotate-ellips-clickmenu-4 3s linear infinite;
+}
+
+.clickmenu p{
+    color: white;
+    font-family: helvetica-mono;
+    font-size: 2.5vw;
+    z-index: 1;
+}
+
+.bluesphere-main{
+    width: 20vw;
+    position: absolute;
+    top: 0vh;
+    left: 10vw;
+    animation: move-bluesphere-main 60s linear infinite;
+}
+
+.device-main{
+    width: 20vw;
+    position: absolute;
+    right: 15vw;
+    top: 0;
+    animation: move-device-main 30s linear infinite;
+}
+
+.glassstar-main{
+    width: 25vw;
+    position: absolute;
+    bottom: 10vh;
+    left: 30vw;
+    animation: move-glassstar-main 20s linear infinite;
+}
+
+.octo-main{
+    width: 30vw;
+    position: absolute;
+    top: 50vh;
+    right: 3vw;
+    animation: move-octo-main 30s linear infinite;
+}
+
+.purplestar-main{
+    width: 20vw;
+    position: absolute;
+    animation: rotate-purplestar-main 5s linear infinite;
+}
+
+.star-box-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 30vh;
+}
+
+.star-box-main p{
+    color: white;
+    position: absolute;
+    font-family: helvetica-mono;
+    font-size: 1.2vw;
+}
+
+.purplestar-main:hover{
+    animation-duration: 1s;
+}
+
+.purplething-main{
+    width: 25vw;
+    position: absolute;
+    bottom: 5vh;
+    left: 7vw;
+    animation: opacity-purplething-main 10s linear infinite;
+}
+
+.purplething-main:hover{
+    animation-play-state: paused;
+}
+
+.whitething-main{
+    width: 25vw;
+    position: absolute;
+    bottom: -10vh;
+    right: 20vw;
+    animation: move-whitething-main 20s linear infinite;
+}
+
+.r{
+    font-family: fyl;
+    color: white;
+    position: absolute;
+    font-size: 13vw;
+    top: 1vw;
+    left: 3vw;
+}
+
+.e{
+    font-family: fyl;
+    color: white;
+    position: absolute;
+    font-size: 13vw;
+    top: 1vw;
+    left: 8vw;
+}
+
+.n{
+    font-family: fyl;
+    color: white;
+    position: absolute;
+    font-size: 13vw;
+    top: 9vw;
+    left: 8.4vw;
+}
+
+.o{
+    font-family: fyl;
+    color: white;
+    position: absolute;
+    font-size: 13vw;
+    top: 9vw;
+    left: 15vw;
+}
+
+.v{
+    font-family: fyl;
+    color: white;
+    position: absolute;
+    font-size: 13vw;
+    top: 9vw;
+    left: 22vw;
+}
+
+.a{
+    font-family: fyl;
+    color: white;
+    position: absolute;
+    font-size: 13vw;
+    top: 9vw;
+    left: 28vw;
+}
+
+.r:hover{
+    transform: translateY(-3vw);
+}
+
+.e:hover{
+    transform: translateY(-3vw);
+}
+
+.n:hover{
+    transform: translateY(3vw);
+}
+
+.o:hover{
+    transform: translateY(3vw);
+}
+
+.v:hover{
+    transform: translateY(3vw);
+}
+
+.a:hover{
+    transform: translateY(3vw);
+}

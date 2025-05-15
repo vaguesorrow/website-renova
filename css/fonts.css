@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "helvetica-mono";
+    src: url(../fonts/Helvetica\ Monospaced\ W06\ Rg.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fyl";
+    src: url(../fonts/FiveYearsLater.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+}

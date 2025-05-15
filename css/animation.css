@@ -1,0 +1,119 @@
+@keyframes scale-back-main{
+    0%, 100%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.1);
+    }
+}
+
+@keyframes rotate-ellips-clickmenu-1{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-ellips-clickmenu-2{
+    0%{
+        transform: rotate(45deg);
+    }
+
+    100%{
+        transform: rotate(405deg);
+    }
+}
+
+@keyframes rotate-ellips-clickmenu-3{
+    0%{
+        transform: rotate(90deg);
+    }
+
+    100%{
+        transform: rotate(450deg);
+    }
+}
+
+@keyframes rotate-ellips-clickmenu-4{
+    0%{
+        transform: rotate(135deg);
+    }
+
+    100%{
+        transform: rotate(495deg);
+    }
+}
+
+@keyframes move-bluesphere-main {
+    0%, 100%{
+        transform: translate(0,0);
+    }
+
+    50%{
+        transform: translate(20vw,10vh);
+    }
+}
+
+@keyframes move-device-main {
+    0%, 100%{
+        transform: translate(0,0vh);
+    }
+
+    50%{
+        transform: translate(-30vw,0vh);
+    }
+}
+
+@keyframes move-glassstar-main {
+    0%, 100%{
+        transform: translate(0,0vh);
+    }
+
+    50%{
+        transform: translate(-10vw,-10vh);
+    }
+}
+
+@keyframes move-octo-main {
+    0%,100%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-50vh);
+    }
+}
+
+@keyframes rotate-purplestar-main {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes opacity-purplething-main {
+    0%, 100%{
+        opacity: 100%;
+    }
+
+    50%{
+        opacity: 0%;
+    }
+}
+
+@keyframes move-whitething-main {
+    0%, 100%{
+        transform: translate(-25vw,0);
+    }
+
+    50%{
+        transform: translate(0, -5vh);
+    }
+}
