@@ -18,7 +18,7 @@ body {
 }
 
 .background-mainscreen{
-    height: 120vh;
+    height: 100vh;
     position: absolute;
     animation: scale-back-main 50s linear infinite;
 }
