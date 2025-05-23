@@ -162,62 +162,68 @@ body {
     font-family: fyl;
     color: white;
     position: absolute;
-    font-size: 13vw;
-    top: 1vw;
-    left: 3vw;
+    font-size: 7vw;
+    top: 3vw;
+    left: 4.2vw;
+    transform: scale(2,1);
 }
 
 .e{
     font-family: fyl;
     color: white;
     position: absolute;
-    font-size: 13vw;
-    top: 1vw;
-    left: 8vw;
+    font-size: 7vw;
+    top: 3vw;
+    left: 9.5vw;
+    transform: scale(2,1);
 }
 
 .n{
     font-family: fyl;
     color: white;
     position: absolute;
-    font-size: 13vw;
+    font-size: 7vw;
     top: 9vw;
     left: 8.4vw;
+    transform: scale(1,2);
 }
 
 .o{
     font-family: fyl;
     color: white;
     position: absolute;
-    font-size: 13vw;
+    font-size: 7vw;
     top: 9vw;
-    left: 15vw;
+    left: 12.5vw;
+    transform: scale(1,2);
 }
 
 .v{
     font-family: fyl;
     color: white;
     position: absolute;
-    font-size: 13vw;
+    font-size: 7vw;
     top: 9vw;
-    left: 22vw;
+    left: 17vw;
+    transform: scale(1,2);
 }
 
 .a{
     font-family: fyl;
     color: white;
     position: absolute;
-    font-size: 13vw;
+    font-size: 7vw;
     top: 9vw;
-    left: 28vw;
+    left: 21vw;
+    transform: scale(1,2);
 }
 
 .r:hover{
-    transform: translateY(-3vw);
+    transform: translateY(-3vw) scale(2,1);
 }
 
 .e:hover{
-    transform: translateY(-3vw);
+    transform: translateY(-3vw) scale(2,1);
 }
 
 .n:hover{
@@ -234,4 +240,49 @@ body {
 
 .a:hover{
     transform: translateY(3vw);
+}
+
+.menu{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.icon-menu{
+    width: 15vw;
+    height: 50vw;
+    border-radius: 50%;
+    background-color: #9900FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    font-family: helvetica-mono;
+    position: absolute;
+    top: 10vw;
+    left: 45vw;
+    display: none;
+}
+
+.text-menu-1{
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.text-menu-2{
+    font-size: 3.5vw;
+    cursor: pointer;
+}
+
+.text-menu-3{
+    font-size: 2.5vw;
+    cursor: pointer;
 }
