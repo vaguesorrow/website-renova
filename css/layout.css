@@ -290,12 +290,12 @@ body {
 /*info*/
 
 .textbox-info{
-    width: 32vw;
+    width: 25vw;
     position: absolute;
     top: 5vh;
     left: 5vw;
     color: white;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-family: helvetica-mono;
 }
 
