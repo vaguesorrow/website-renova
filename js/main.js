@@ -14,4 +14,8 @@ document.addEventListener('DOMContentLoaded', function () {
         menu.style.display = 'none';
         iconmenu.style.display = 'none';
     });
+
+    document.querySelector(".text-menu-1").addEventListener("click", () => {
+        window.location.href = "info.html";
+    });
 });
