@@ -302,14 +302,14 @@ body {
 .bluesphere-ques-info-1{
     width: 30vw;
     position: absolute;
-    top: 25vw;
+    top: 15vw;
     cursor: pointer;
 }
 
 .bluesphere-ques-info-2{
     width: 20vw;
     position: absolute;
-    top: 12vw;
+    top: 2vw;
     right: 30vw;
     cursor: pointer;
 }
@@ -317,7 +317,7 @@ body {
 .bluesphere-ques-info-3{
     width: 40vw;
     position: absolute;
-    top: 35vw;
+    top: 20vw;
     right: 0vw;
     cursor: pointer;
 }
