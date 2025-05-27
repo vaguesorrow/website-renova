@@ -302,19 +302,35 @@ body {
 .bluesphere-ques-info-1{
     width: 30vw;
     position: absolute;
-    top: 40vh;
+    top: 25vw;
+    cursor: pointer;
 }
 
 .bluesphere-ques-info-2{
     width: 20vw;
     position: absolute;
-    top: 20vh;
+    top: 12vw;
     right: 30vw;
+    cursor: pointer;
 }
 
 .bluesphere-ques-info-3{
     width: 40vw;
     position: absolute;
-    top: 50vh;
+    top: 35vw;
     right: 0vw;
+    cursor: pointer;
+}
+
+.white-str-info-1{
+    width: 14.4vw;
+    height: 7vw;
+    position: absolute;
+    top: 39vw;
+    left: 15vw;
+    display: none;
+}
+
+.white-str-info-1 img{
+    width: 100%;
 }
