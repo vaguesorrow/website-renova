@@ -18,4 +18,12 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector(".text-menu-1").addEventListener("click", () => {
         window.location.href = "info.html";
     });
+
+    document.querySelector(".text-menu-2").addEventListener("click", () => {
+        window.location.href = "events.html";
+    });
+
+    document.querySelector(".text-menu-3").addEventListener("click", () => {
+        window.location.href = "order.html";
+    });
 });

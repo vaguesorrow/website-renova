@@ -309,7 +309,7 @@ body {
 .bluesphere-ques-info-2{
     width: 20vw;
     position: absolute;
-    top: 2vw;
+    top: 7vw;
     right: 30vw;
     cursor: pointer;
 }
@@ -326,11 +326,68 @@ body {
     width: 14.4vw;
     height: 7vw;
     position: absolute;
-    top: 39vw;
+    top: 29vw;
     left: 15vw;
     display: none;
 }
 
 .white-str-info-1 img{
     width: 100%;
+}
+
+.info-text-1{
+    font-family: helvetica-mono;
+    color: white;
+    position: absolute;
+    font-size: 1.2vw;
+    left: 25.3vw;
+    top: 27.6vw;
+    display: none;
+}
+
+.white-str-info-2{
+    width: 14.4vw;
+    height: 7vw;
+    position: absolute;
+    top: 2.5vw;
+    left: 60vw;
+    display: none;
+}
+
+.white-str-info-2 img{
+    width: 100%;
+}
+
+.info-text-2{
+    font-family: helvetica-mono;
+    color: white;
+    position: absolute;
+    font-size: 1.2vw;
+    left: 70.8vw;
+    top: 9.5vw;
+    display: none;
+}
+
+.white-str-info-3{
+    width: 14.4vw;
+    height: 7vw;
+    position: absolute;
+    top: 35vw;
+    left: 62vw;
+    rotate: 90deg;
+    display: none;
+}
+
+.white-str-info-3 img{
+    width: 100%;
+}
+
+.info-text-3{
+    font-family: helvetica-mono;
+    color: white;
+    position: absolute;
+    font-size: 1.2vw;
+    left: 72.8vw;
+    top: 44.3vw;
+    display: none;
 }
