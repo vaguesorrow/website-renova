@@ -399,7 +399,7 @@ body {
     color: white;
     font-family: helvetica-mono;
     font-size: 1.2vw;
-    left: 40vw;
+    left: 50vw;
     top: 5vh;
 }
 
@@ -435,4 +435,80 @@ body {
     border-color: rgba(0, 0, 0, 0);
     position: absolute;
     right: 0;
+}
+
+/*device*/
+
+.bluesphere-ques-dev{
+    width: 20vw;
+    position: absolute;
+    top: 3.5vw;
+    cursor: pointer;
+}
+
+.white-str-dev{
+    width: 14.4vw;
+    height: 7vw;
+    position: absolute;
+    top: 12vw;
+    left: 10vw;
+    display: none;
+}
+
+.white-str-dev img{
+    width: 100%;
+}
+
+.device-text{
+    font-family: helvetica-mono;
+    color: white;
+    position: absolute;
+    font-size: 1.2vw;
+    left: 19.6vw;
+    top: 10.5vw;
+    display: none;
+}
+
+/*instruction*/
+
+.textbox-instruction{
+    width: 40vw;
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    color: white;
+    font-size: 1.2vw;
+    font-family: helvetica-mono;
+}
+
+.bluesphere-ques-instr{
+    width: 20vw;
+    position: absolute;
+    top: 20vw;
+    right: 5vw;
+    cursor: pointer;
+}
+
+.white-str-instr{
+    width: 14.4vw;
+    height: 7vw;
+    position: absolute;
+    top: 29vw;
+    right: 14.8vw;
+    rotate: 180deg;
+    display: none;
+}
+
+.white-str-instr img{
+    width: 100%;
+}
+
+.instr-text{
+    font-family: helvetica-mono;
+    color: white;
+    position: absolute;
+    font-size: 1.2vw;
+    right: 22.9vw;
+    top: 27.5vw;
+    display: none;
 }
