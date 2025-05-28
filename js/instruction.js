@@ -16,6 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     bluesph.addEventListener('click', function() {
-        window.location.href = "instruction.html";
+        window.location.href = "https://vaguesorrow.github.io/web-poster-renova/?clckid=32a4d491";
     });
 });
