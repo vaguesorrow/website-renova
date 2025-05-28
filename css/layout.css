@@ -391,3 +391,48 @@ body {
     top: 44.3vw;
     display: none;
 }
+
+/*contact*/
+
+.contact-form{
+    position: absolute;
+    color: white;
+    font-family: helvetica-mono;
+    font-size: 1.2vw;
+    left: 40vw;
+    top: 5vh;
+}
+
+#contacts{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 9%;
+    border-color: white;
+    width: 20vw;
+    color: white;
+    font-size: 1.2vw;
+    font-family: helvetica-mono;
+    border-width: 1px;
+}
+
+#message{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10%;
+    border-color: white;
+    width: 20vw;
+    height: 10vw;
+    color: white;
+    font-size: 1.2vw;
+    font-family: helvetica-mono;
+    resize: none;
+    border-width: 1px;
+}
+
+.button-contact{
+    font-family: helvetica-mono;
+    color: white;
+    font-size: 1.2vw;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    right: 0;
+}
