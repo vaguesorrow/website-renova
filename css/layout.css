@@ -15,6 +15,9 @@ body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .background-mainscreen{
@@ -405,9 +408,10 @@ body {
 
 #contacts{
     background-color: rgba(0, 0, 0, 0);
-    border-radius: 9%;
+    border-radius:0%;
     border-color: white;
     width: 20vw;
+    height: 1.5vw;
     color: white;
     font-size: 1.2vw;
     font-family: helvetica-mono;
@@ -443,6 +447,7 @@ body {
     width: 20vw;
     position: absolute;
     top: 3.5vw;
+    left: 0;
     cursor: pointer;
 }
 
@@ -511,4 +516,195 @@ body {
     right: 22.9vw;
     top: 27.5vw;
     display: none;
+}
+
+/*events*/
+
+.posters{
+    background-color: #9900FF;
+    width: 80vw;
+    height: 90vh;
+    position: relative;
+    justify-self: center;
+}
+
+.events-fear-1{
+    width: 15vw;
+    position: absolute;
+    right: 12vw;
+    bottom: 5vh;
+    rotate: -25deg;
+    cursor: pointer;
+}
+
+.events-fear-1:hover{
+    rotate: 0deg;
+    z-index: 100;
+}
+
+.events-fear-2{
+    width: 15vw;
+    position: absolute;
+    right: 5vw;
+    bottom: 7vh;
+    rotate: 25deg;
+    cursor: pointer;
+}
+
+.events-fear-2:hover{
+    rotate: 0deg;
+    z-index: 100;
+}
+
+.events-okto-1{
+    width: 17vw;
+    position: absolute;
+    left: 10vw;
+    top: 2vh;
+    rotate: -19deg;
+    cursor: pointer;
+}
+
+.events-okto-1:hover{
+    rotate: 0deg;
+    z-index: 100;
+}
+
+.events-okto-2{
+    width: 17vw;
+    position: absolute;
+    left: 20vw;
+    rotate: 30deg;
+    cursor: pointer;
+}
+
+.events-okto-2:hover{
+    rotate: 0deg;
+    z-index: 100;
+}
+
+.events-openday-1{
+    width: 15vw;
+    position: absolute;
+    bottom: 10vh;
+    left: 5vw;
+    rotate: -35deg;
+    cursor: pointer;
+}
+
+.events-openday-1:hover{
+    rotate: 0deg;
+    z-index: 100;
+}
+
+.events-openday-2{
+    width: 15vw;
+    position: absolute;
+    bottom: 11vh;
+    left: 17vw;
+    rotate: 7deg;
+    cursor: pointer;
+}
+
+.events-openday-2:hover{
+    rotate: 0deg;
+    z-index: 100;
+}
+
+.events-openday-3{
+    width: 15vw;
+    position: absolute;
+    bottom: 5vh;
+    left: 10vw;
+    rotate: -10deg;
+    cursor: pointer;
+}
+
+.events-openday-3:hover{
+    rotate: 0deg;
+    z-index: 100;
+}
+
+.events-present-1{
+    width: 16vw;
+    position: absolute;
+    cursor: pointer;
+    right: 20vw;
+    top: 3vh;
+    rotate: 18deg;
+}
+
+.events-present-1:hover{
+    rotate: 0deg;
+    z-index: 100;
+}
+
+.events-present-2{
+    width: 16vw;
+    position: absolute;
+    cursor: pointer;
+    right: 25vw;
+    top: 10vh;
+    rotate: -13deg;
+}
+
+.events-present-2:hover{
+    rotate: 0deg;
+    z-index: 100;
+}
+
+.events-present-3{
+    width: 16vw;
+    position: absolute;
+    cursor: pointer;
+    right: 10vw;
+    top: 15vh;
+    rotate: 10deg;
+}
+
+.events-present-3:hover{
+    rotate: 0deg;
+    z-index: 100;
+}
+
+.events-scince-1{
+    width: 18vw;
+    position: absolute;
+    cursor: pointer;
+    bottom: 3vh;
+    left: 25vw;
+    rotate: -20deg;
+}
+
+.events-scince-1:hover{
+    rotate: 0deg;
+    z-index: 100;
+}
+
+.events-scince-2{
+    width: 18vw;
+    position: absolute;
+    cursor: pointer;
+    bottom: 2vh;
+    left: 35vw;
+    rotate: 15deg;
+}
+
+.events-scince-2:hover{
+    rotate: 0deg;
+    z-index: 100;
+}
+
+.events-scince-3{
+    width: 18vw;
+    position: absolute;
+    cursor: pointer;
+    bottom: 10vh;
+    left: 30vw;
+    rotate: 9deg;
+}
+
+.events-scince-3:hover{
+    rotate: 0deg;
+    z-index: 100;
 }
