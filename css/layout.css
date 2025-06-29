@@ -5,8 +5,7 @@ body {
 
 body {
     width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
     display: block;
     margin: 0 auto;
     background-color: black;
@@ -274,6 +273,7 @@ body {
     top: 5vh;
     left: 42.5vw;
     display: none;
+    z-index: 10000;
 }
 
 .text-menu-1{
@@ -402,31 +402,31 @@ body {
     position: absolute;
     color: white;
     font-family: helvetica-mono;
-    font-size: 1.2vw;
+    font-size: clamp(10px, 1.2vw, 15px);
     left: 50vw;
     top: 5vh;
 }
 
 #contacts{
     background-color: rgba(0, 0, 0, 0);
-    border-radius:0%;
+    border-radius:10px;
     border-color: white;
     width: 20vw;
-    height: 1.5vw;
+    height: 2vw;
     color: white;
-    font-size: 1.2vw;
+    font-size: clamp(10px, 1.2vw, 15px);
     font-family: helvetica-mono;
     border-width: 1px;
 }
 
 #message{
     background-color: rgba(0, 0, 0, 0);
-    border-radius: 10%;
+    border-radius: 10px;
     border-color: white;
     width: 20vw;
     height: 10vw;
     color: white;
-    font-size: 1.2vw;
+    font-size: clamp(10px, 1.2vw, 15px);
     font-family: helvetica-mono;
     resize: none;
     border-width: 1px;
@@ -435,11 +435,12 @@ body {
 .button-contact{
     font-family: helvetica-mono;
     color: white;
-    font-size: 1.2vw;
+    font-size: clamp(10px, 1.2vw, 15px);
     background-color: rgba(0, 0, 0, 0);
     border-color: rgba(0, 0, 0, 0);
     position: absolute;
     right: 0;
+    cursor: pointer;
 }
 
 /*device*/
@@ -469,7 +470,7 @@ body {
     font-family: helvetica-mono;
     color: white;
     position: absolute;
-    font-size: 1.2vw;
+    font-size: clamp(10px, 1.2vw, 15px);
     left: 19.6vw;
     top: 10.5vw;
     display: none;
@@ -483,7 +484,7 @@ body {
     top: 5vh;
     left: 5vw;
     color: white;
-    font-size: 1.2vw;
+    font-size: clamp(10px, 1.2vw, 15px);
     font-family: helvetica-mono;
 }
 
@@ -513,7 +514,7 @@ body {
     font-family: helvetica-mono;
     color: white;
     position: absolute;
-    font-size: 1.2vw;
+    font-size: clamp(10px, 1.2vw, 15px);
     right: 22.9vw;
     top: 27.5vw;
     display: none;
@@ -526,6 +527,7 @@ body {
     height: 90vh;
     position: relative;
     justify-self: center;
+    display: flex;
 }
 
 .events-fear-1{
@@ -707,4 +709,178 @@ body {
 .events-scince-3:hover{
     rotate: 0deg;
     z-index: 100;
+}
+
+.event-block{
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.img-cont{
+    height: 100%;
+    width: auto;
+}
+
+.img-cont-1{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.img-cont-1 img{
+    height: 100%;
+}
+
+.img-cont-2{
+    height: 100%;
+    position: absolute;
+    left: 4vh;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.img-cont-2 img{
+    height: 100%;
+}
+
+.img-cont-3{
+    height: 100%;
+    position: absolute;
+    left: 8vh;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.img-cont-3 img{
+    height: 100%;
+}
+
+.text-posters{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    font-family: helvetica-mono;
+    font-size: clamp(10px, 1.2vw, 15px);
+    width: 30vw;
+    height: 40%;
+    display: flex;
+    align-items: self-start;
+    margin-top: 5vh;
+    justify-content: center;
+}
+
+.restart{
+    width: 4vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+/*манифест*/
+
+.manifest-cont {
+    perspective: 800px;
+    overflow: hidden;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0)  ;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+}
+
+.manifest {
+    position: relative;
+    width: 90vw;
+    transform-origin: bottom left;
+    transform: rotateX(20deg) translateZ(0);
+    animation: crawl 10s linear forwards;
+}
+
+.fin-manifest{
+    width: 80vw;
+    opacity: 0;
+    transform: none;
+    transition: opacity 1s ease;
+    position: absolute;
+    top: 40px;
+    z-index: 100;
+}
+
+.mainscreen-m{
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130vw;
+}
+
+.background-mainscreen-2{
+    height: 135vw;
+    position: absolute;
+    animation: scale-back-main 50s linear infinite;
+}
+
+/*order*/
+
+.order-form{
+    position: absolute;
+    color: white;
+    font-family: helvetica-mono;
+    font-size: 1.2vw;
+    left: 5vw;
+    top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+}
+
+.ord{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius:5px;
+    border-color: white;
+    height: 2vw;
+    color: white;
+    font-size: clamp(10px, 1.2vw, 15px);
+    font-family: helvetica-mono;
+    border-width: 1px;
+}
+
+.f1{
+    width: 31.2vw;
+}
+
+.f2{
+    width: 15vw;
+}
+
+.f3{
+    width: 15vw;
+}
+
+
+.button-order{
+    font-family: helvetica-mono;
+    color: black;
+    font-size: 1.2vw;
+    border-radius: 5px;
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    width: 10vw;
 }
