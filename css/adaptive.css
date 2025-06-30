@@ -1,0 +1,237 @@
+
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .bluesphere-main{
+        width: 40vw;
+}
+
+@keyframes move-bluesphere-main {
+    0%, 100%{
+        transform: translate(6vw,0);
+    }
+
+    50%{
+        transform: translate(20vw,20vh);
+    }
+}
+
+.device-main{
+    width: 30vw;
+}
+
+@keyframes move-device-main {
+    0%, 100%{
+        transform: translate(0,10vh);
+    }
+
+    50%{
+        transform: translate(-30vw,30vh);
+    }
+}
+
+.glassstar-main{
+    width: 40vw;
+}
+
+@keyframes move-glassstar-main {
+    0%, 100%{
+        transform: translate(0,-20vh);
+    }
+
+    50%{
+        transform: translate(-30vw,-50vh);
+    }
+}
+
+.octo-main{
+    width: 50vw;
+}
+
+@keyframes move-octo-main {
+    0%,100%{
+        transform: translateY(20vh);
+    }
+
+    50%{
+        transform: translateY(-20vh);
+    }
+}
+
+.purplestar-main{
+    width: 50vw;
+}
+
+.purplething-main{
+    width: 40vw;
+}
+
+.whitething-main{
+    width: 30vw;
+}
+
+@keyframes move-whitething-main {
+    0%, 100%{
+        transform: translate(-35vw,-50vh);
+    }
+
+    50%{
+        transform: translate(-15vw, -20vh);
+    }
+}
+
+.textbox-info{
+    width: 50vw;
+    font-size: 2vw;
+}
+
+.bluesphere-ques-info-1{
+    width: 50vw;
+    top: 25vw;
+}
+
+.bluesphere-ques-info-2{
+    width: 40vw;
+    top: 15vw;
+    right: 10vw;
+}
+
+.bluesphere-ques-info-3{
+    width: 45vw;
+    top: 50vw;
+    right: 20vw;
+}
+
+.white-str-info-1{
+    top: 48vw;
+    left: 25vw;
+}
+
+.info-text-1{
+    font-size: 2vw;
+    left: 33vw;
+    top: 45vw;
+}
+
+.white-str-info-2{
+    top: 13vw;
+    left: 66vw;
+}
+
+.info-text-2{
+    font-size: 2vw;
+    left: 74.5vw;
+    top: 20vw;
+}
+
+.white-str-info-3{
+    top: 66vw;
+    left: 36.5vw;
+}
+
+.info-text-3{
+    font-size: 2vw;
+    left: 48vw;
+    top: 75vw;
+}
+
+.contact-form{
+    font-size: 2vw;
+    left: 5vw;
+    top: 25vw;
+}
+
+#contacts{
+    width: 50vw;
+    height: 4vw;
+    font-size: 2vw;
+}
+
+#message{
+    width: 50vw;
+    height: 40vw;
+    font-size: 2vw;
+}
+
+.button-contact{
+    font-size: 2vw;
+}
+
+.bluesphere-ques-dev{
+    width: 40vw;
+    left: -5vw;
+}
+
+.white-str-dev{
+    top: 22vw;
+    left: 15vw;
+}
+
+.device-text{
+    font-size: 2vw;
+    left: 22vw;
+    top: 19vw;
+}
+
+.bluesphere-ques-instr{
+    width: 30vw;
+    right: 0;
+}
+
+.white-str-instr{
+    top: 33vw;
+}
+
+.instr-text{
+    top: 30.5vw;
+    right: 21vw;
+}
+
+.posters{
+    width: 80vw;
+    height: 50vh;
+    position: relative;
+    justify-self: center;
+    display: flex;
+}
+
+.event-block{
+    flex-direction: column;
+}
+
+.text-posters{
+    font-size: 2vw;
+    top: 80vh;
+    left: 0;
+}
+
+.restart{
+    width: 4vw;
+    position: absolute;
+    bottom: -20vh;
+    right: 0;
+    cursor: pointer;
+}
+
+.order-form{
+    font-size: 2vw;
+    width: 90vw;
+    flex-direction: column;
+}
+
+.ord{
+    font-size: 2vw;
+}
+
+.f1{
+    width: 60vw;
+}
+
+.f2, .f3{
+    width: 29vw;
+}
+
+.button-order{
+    right: 29vw;
+}
+
+}

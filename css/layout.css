@@ -531,10 +531,10 @@ body {
 }
 
 .events-fear-1{
-    width: 15vw;
+    width: 25%;
     position: absolute;
-    right: 12vw;
-    bottom: 5vh;
+    right: 12%;
+    bottom: 5%;
     rotate: -25deg;
     cursor: pointer;
 }
@@ -545,10 +545,10 @@ body {
 }
 
 .events-fear-2{
-    width: 15vw;
+    width: 25%;
     position: absolute;
-    right: 5vw;
-    bottom: 7vh;
+    right: 5%;
+    bottom: 7%;
     rotate: 25deg;
     cursor: pointer;
 }
@@ -559,10 +559,10 @@ body {
 }
 
 .events-okto-1{
-    width: 17vw;
+    width: 22%;
     position: absolute;
-    left: 10vw;
-    top: 2vh;
+    left: 10%;
+    top: 2%;
     rotate: -19deg;
     cursor: pointer;
 }
@@ -573,9 +573,9 @@ body {
 }
 
 .events-okto-2{
-    width: 17vw;
+    width: 22%;
     position: absolute;
-    left: 20vw;
+    left: 20%;
     rotate: 30deg;
     cursor: pointer;
 }
@@ -586,10 +586,10 @@ body {
 }
 
 .events-openday-1{
-    width: 15vw;
+    width: 20%;
     position: absolute;
-    bottom: 10vh;
-    left: 5vw;
+    bottom: 10%;
+    left: 5%;
     rotate: -35deg;
     cursor: pointer;
 }
@@ -600,10 +600,10 @@ body {
 }
 
 .events-openday-2{
-    width: 15vw;
+    width: 20%;
     position: absolute;
-    bottom: 11vh;
-    left: 17vw;
+    bottom: 11%;
+    left: 17%;
     rotate: 7deg;
     cursor: pointer;
 }
@@ -614,10 +614,10 @@ body {
 }
 
 .events-openday-3{
-    width: 15vw;
+    width: 20%;
     position: absolute;
-    bottom: 5vh;
-    left: 10vw;
+    bottom: 5%;
+    left: 10%;
     rotate: -10deg;
     cursor: pointer;
 }
@@ -628,11 +628,11 @@ body {
 }
 
 .events-present-1{
-    width: 16vw;
+    width: 24%;
     position: absolute;
     cursor: pointer;
-    right: 20vw;
-    top: 3vh;
+    right: 20%;
+    top: 3%;
     rotate: 18deg;
 }
 
@@ -642,11 +642,11 @@ body {
 }
 
 .events-present-2{
-    width: 16vw;
+    width: 24%;
     position: absolute;
     cursor: pointer;
-    right: 25vw;
-    top: 10vh;
+    right: 30%;
+    top: 10%;
     rotate: -13deg;
 }
 
@@ -656,11 +656,11 @@ body {
 }
 
 .events-present-3{
-    width: 16vw;
+    width: 24%;
     position: absolute;
     cursor: pointer;
-    right: 10vw;
-    top: 15vh;
+    right: 10%;
+    top: 15%;
     rotate: 10deg;
 }
 
@@ -670,11 +670,11 @@ body {
 }
 
 .events-scince-1{
-    width: 18vw;
+    width: 26%;
     position: absolute;
     cursor: pointer;
-    bottom: 3vh;
-    left: 25vw;
+    bottom: 3%;
+    left: 25%;
     rotate: -20deg;
 }
 
@@ -684,11 +684,11 @@ body {
 }
 
 .events-scince-2{
-    width: 18vw;
+    width: 26%;
     position: absolute;
     cursor: pointer;
-    bottom: 2vh;
-    left: 35vw;
+    bottom: 2%;
+    left: 35%;
     rotate: 15deg;
 }
 
@@ -698,11 +698,11 @@ body {
 }
 
 .events-scince-3{
-    width: 18vw;
+    width: 18%;
     position: absolute;
     cursor: pointer;
-    bottom: 10vh;
-    left: 30vw;
+    bottom: 10%;
+    left: 30%;
     rotate: 9deg;
 }
 
@@ -886,6 +886,8 @@ body {
     width: 10vw;
 }
 
+/*device*/
+
 .device-dev{
     width: 80vw;
     position: absolute;
@@ -901,6 +903,8 @@ body {
 .device-dev:hover{
     animation-play-state: paused;
 }
+
+/*404*/
 
 h1{
     position: absolute;
