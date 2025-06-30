@@ -18,4 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
     bluesph.addEventListener('click', function() {
         window.location.href = "instruction.html";
     });
+
+    
 });

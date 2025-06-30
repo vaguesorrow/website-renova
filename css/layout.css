@@ -799,6 +799,7 @@ body {
     align-items: flex-end;
     justify-content: center;
     position: absolute;
+    top: 0;
 }
 
 .manifest {
@@ -883,4 +884,48 @@ body {
     right: 0;
     cursor: pointer;
     width: 10vw;
+}
+
+.device-dev{
+    width: 80vw;
+    position: absolute;
+    left: 10vw;
+    animation: rotate 1s linear infinite;
+}
+
+
+.device-dev img{
+    width: 100%;
+}
+
+.device-dev:hover{
+    animation-play-state: paused;
+}
+
+h1{
+    position: absolute;
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 1.5px yellow;
+    font-size: 15vw;
+    font-family: fyl;
+    top:10vw;
+    left: 10vw;
+}
+
+.text404{
+    color: yellow;
+    font-family: helvetica-mono;
+    font-size: 2vw;
+    position: absolute;
+    left: 10vw;
+    top: 30vw;
+}
+
+a{
+    color: yellow;
+    font-family: helvetica-mono;
+    position: absolute;
+    left: 10vw;
+    top: 33vw;
+    font-size: 2vw;
 }
