@@ -1,6 +1,6 @@
 
 
-@media (min-width: 300px) and (max-width: 768px) {
+@media (min-width: 100px) and (max-width: 768px) {
     .bluesphere-main{
         width: 40vw;
 }
@@ -226,4 +226,30 @@
     right: 29vw;
 }
 
+.icon-menu{
+    height: 50vh;
+    width: 20vw;
+    top: 25vh;
+}
+
+.text-menu-1{
+    font-size: 3vw;
+}
+
+.text-menu-2{
+    font-size: 5vw;
+}
+
+.text-menu-3{
+    font-size: 3vw;
+}
+
+.clickmenu{
+    width: 10vw;
+    height: 10vw;
+}
+
+.clickmenu p{
+    font-size: 4vw;
+}
 }
