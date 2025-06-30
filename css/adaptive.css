@@ -204,14 +204,6 @@
     left: 0;
 }
 
-.restart{
-    width: 4vw;
-    position: absolute;
-    bottom: -20vh;
-    right: 0;
-    cursor: pointer;
-}
-
 .order-form{
     font-size: 2vw;
     width: 90vw;
